@@ -1,0 +1,73 @@
+/* for the full screen */
+.full-screen {
+  height: 100vh;
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative;
+  border-top: 5px solid #37ef50;
+  border-bottom: 5px solid #37ef50;
+}
+
+.main--login__side1 {
+  height: 100%;
+  width: 100%;
+  background-color: #1f2229;
+  margin: 0px !important;
+  color: #37ef50;
+  position: relative;
+}
+.main--login__side2 {
+  height: 100%;
+  width: 100%;
+  margin: 0px !important;
+  background-image: url(https://c.wallhere.com/photos/b2/19/Anonymous_technology_minimalism_hacking_security_mask-142127.png!d);
+  background-position: center;
+}
+
+.main--login__inner1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #37ef50;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #37ef50;
+}
+.cst-input {
+  display: block;
+  border: 1px solid #37ef50;
+  width: 100%;
+  outline: none;
+  color: white;
+  margin: 8px 0px;
+  padding: 10px 20px;
+  background-color: #353a47;
+}
+
+.cst-input::placeholder {
+  color: rgb(182, 174, 174);
+}
+
+.cst-btn {
+  border: 1px solid #37ef50;
+  color: white;
+  transition: all 0.2s;
+}
+
+.cst-btn:hover {
+  background: #37ef50;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .main--login__side1 {
+    width: 100vw;
+  }
+  .main--login__inner1 {
+    top: 0%;
+    left: 10%;
+    transform: translate(-5%, 10%);
+  }
+}
